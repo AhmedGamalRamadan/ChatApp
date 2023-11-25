@@ -6,5 +6,5 @@ Chat App useing Firebase Authentication and Real time
 * [Kotlin](https://kotlinlang.org)
 * [View Binding]
 * [RecyclerView]
-* [Firebase Authentication](https://firebase.google.com/)
-* [Firebase Real time](https://firebase.google.com/)
+* [Firebase Authentication]https://developer.android.com/studio/write/firebase
+* [Firebase Real time]https://developer.android.com/studio/write/firebase
