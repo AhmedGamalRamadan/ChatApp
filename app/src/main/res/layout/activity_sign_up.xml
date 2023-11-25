@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SignUpActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/image_chat" />
+
+    <EditText
+        android:id="@+id/etUserNameSignUp"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/etEmailSignUp"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/etPasswordSignUp"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btnSignupSignUp"
+        style="@style/blueButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="@string/signup"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
