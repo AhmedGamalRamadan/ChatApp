@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.chat.R
 import com.example.chat.databinding.ActivitySignUpBinding
 import com.example.chat.model.User
 import com.google.firebase.auth.FirebaseAuth
@@ -34,6 +33,10 @@ class SignUpActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please write the email", Toast.LENGTH_SHORT).show()
             }
 
+        }
+        binding.doYouHaveAccount.setOnClickListener {
+            val intentToLoginActivity = Intent(this@SignUpActivity,LoginActivity::class.java)
+            startActivity(intentToLoginActivity)
         }
 
     }

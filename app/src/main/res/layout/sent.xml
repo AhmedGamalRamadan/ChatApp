@@ -9,16 +9,15 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
-        android:background="@drawable/btn_background">
+        android:background="@drawable/sent_message">
 
     <TextView
         android:id="@+id/txt_sent_message"
-        android:layout_width="wrap_content"
+        android:layout_width="215dp"
         android:layout_height="wrap_content"
         android:text="This is sent message "
         android:padding="8dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp"/>
     </RelativeLayout>
 </RelativeLayout>

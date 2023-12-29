@@ -14,6 +14,7 @@
     <EditText
         android:id="@+id/etUserNameSignUp"
         style="@style/editText"
+        android:textColorHint="@color/btn_bg_orange"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/username" />
@@ -21,7 +22,9 @@
     <EditText
         android:id="@+id/etEmailSignUp"
         style="@style/editText"
+        android:textColorHint="@color/btn_bg_orange"
         android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
         android:layout_height="50dp"
         android:hint="@string/email" />
 
@@ -31,19 +34,32 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/password"
+        android:textColorHint="@color/btn_bg_orange"
         android:inputType="textPassword" />
 
 
     <Button
         android:id="@+id/btnSignupSignUp"
-        style="@style/blueButtonStyle"
-        android:layout_width="wrap_content"
+        style="@style/orangeButtonStyle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/signup"
         android:textAllCaps="false"
         android:textSize="22sp" />
 
+    <TextView
+        android:id="@+id/doYouHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/btn_bg_orange"
+        android:text="@string/do_you_have_account"
+        />
 
 </LinearLayout>

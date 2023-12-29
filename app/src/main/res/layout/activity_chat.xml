@@ -30,7 +30,8 @@
             android:layout_weight="85"
             android:background="@drawable/message_box"
             android:hint="Write a message"
-            android:paddingStart="5dp" />
+            android:textColorHint="@color/g_orange_yellow"
+            android:paddingStart="7dp" />
 
 
         <ImageView

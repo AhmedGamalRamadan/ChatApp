@@ -9,15 +9,15 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="5dp"
         android:layout_marginStart="5dp"
-        android:background="@drawable/et_background">
+        android:background="@drawable/receive_message">
 
         <TextView
             android:id="@+id/txt_receive_message"
-            android:layout_width="wrap_content"
+            android:layout_width="215dp"
             android:layout_height="wrap_content"
             android:text="This is receive message "
+            android:textColor="@color/white"
             android:padding="8dp"
-            android:textStyle="bold"
             android:textSize="18sp"/>
     </RelativeLayout>
 </RelativeLayout>
